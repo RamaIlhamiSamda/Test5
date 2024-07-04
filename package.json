@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "netlift build --prod"
+    "build": "netlify deploy --prod"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +11,9 @@
   "description": "",
   "dependencies": {
     "build": "^0.1.4",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "netlify-cli": "^17.32.1",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
   }
 }
