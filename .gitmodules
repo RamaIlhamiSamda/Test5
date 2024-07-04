@@ -1,0 +1,3 @@
+[submodule "themes/theme_name"]
+	path = themes/theme_name
+	url = https://github.com/RamaIlhamiSamda/Test5.git
