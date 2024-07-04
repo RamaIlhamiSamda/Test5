@@ -1,2 +1,6 @@
 [build]
   functions = "functions"
+
+[submodule "Test5"]
+    path = Test5
+    url = https://github.com/RamaIlhamiSamda/Test5.git
