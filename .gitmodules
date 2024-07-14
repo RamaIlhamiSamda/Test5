@@ -1,3 +1,7 @@
-[submodule "themes/theme_name"]
-	path = themes/theme_name
-	url = https://github.com/RamaIlhamiSamda/Test5.git
+# [submodule "themes/theme_name"]
+# 	path = themes/theme_name
+# 	url = https://github.com/RamaIlhamiSamda/Test5.git
+
+[submodule "path_to_submodule"] 
+  path = path_to_submodule 
+  url = https://github.com/RamaIlhamiSamda/Test5.git

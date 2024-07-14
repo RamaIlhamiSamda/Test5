@@ -1,16 +1,4 @@
-const express = require('express');
-const serverless = require('serverless-http');
-const app = express();
-const router = express.Router();
-const port = 3000
-
-router.get('/home', (req, res) => {
-  res.send('App is running..');
-});
-
-app.get('/',(req,res)=>{
-  const html = `
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -37,13 +25,3 @@ app.get('/',(req,res)=>{
   </div>
 </body>
 </html>
-
-`
-  res.send(html)
-})
-
-
-
-
-app.use('/', router);
-module.exports.handler = serverless(app);
